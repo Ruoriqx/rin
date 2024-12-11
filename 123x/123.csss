@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #d4e6d4, #ffffff); /* Зелено-белый градиент */
+  color: #333;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  width: 80%;
+  padding: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 100px; /* Подняли логотип еще выше */
+  left: 10px;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  font-size: 2.5em;
+  color: #555;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  margin-top: 40px; /* Увеличили отступ от логотипа */
+}
+
+.header p {
+  font-style: italic;
+  color: #777;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+.main-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.section {
+  width: 30%;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.section img {
+  max-width: 80%;
+  max-height: 80%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.section h3 {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.section a {
+  color: #333;
+  text-decoration: none;
+}
